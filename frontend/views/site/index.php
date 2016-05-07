@@ -23,3 +23,8 @@ $route2=Yii::$app->UrlManager->createUrl(['test/test2','name'=>'Yothin2','lname'
 Html::a('ลิงค์แบบที่3', ['test/test1','a'=>'1']);
 
 ?> = ทำ link url ธรรมดา ไปแสดงที่ view style Yii <br>
+
+<?php
+// yii::$app->db->open();  //test connect mysql
+
+?>
